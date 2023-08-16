@@ -1,4 +1,4 @@
-/* extended styles */
+/* Extended */
 
 .info {
   font-size: 12px;
@@ -6,10 +6,10 @@
 
 .success {
   @extend .info;
-  color: #00ff00;
+  color: #00FF00;
 }
 
 .warning {
   @extend .info;
-  color: #ff0000;
+  color: #FF0000;
 }

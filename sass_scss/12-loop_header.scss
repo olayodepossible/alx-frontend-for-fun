@@ -1,6 +1,7 @@
-/* using for loop */
-@for $value from 1 through 5 {
-  h#{$value} {
-    font-size: $value + px;
+/* Creates H* tags, where ‘*’ is the size of the font used */
+
+@for $index from 1 through 5 {
+  h#{$index} {
+    font-size: $index + px;
   }
 }
